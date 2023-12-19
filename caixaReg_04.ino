@@ -109,16 +109,6 @@ void loop() {
   if(pressionado == '*'){
     liberado = !liberado;
   }
-  
-  if (liberado == 0){
-
-    myServo.write(140);
-
-  } else {
-
-  myServo.write(50);
-  
-  }
 }
 
 // - - - - - - - - - - - Funções
